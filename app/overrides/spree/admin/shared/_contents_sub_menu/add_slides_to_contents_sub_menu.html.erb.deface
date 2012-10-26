@@ -1,2 +1,2 @@
-<!-- insert_bottom '[data-hook="essentials_sub_nav"]' disabled -->
+<!-- insert_bottom '[data-hook="essentials_sub_nav"]' -->
 <li><%= link_to 'Slides', admin_slides_path %></li>
