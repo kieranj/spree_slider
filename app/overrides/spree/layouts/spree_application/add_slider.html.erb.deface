@@ -1,2 +1,2 @@
-<!-- insert_before '#wrapper[data-hook]' -->
+<!-- insert_before '#wrapper[data-hook]' disabled -->
 <%= yield :spree_slider %>
