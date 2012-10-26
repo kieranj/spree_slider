@@ -1,2 +1,0 @@
-<!-- insert_before '#wrapper[data-hook]' disabled -->
-<%= yield :spree_slider %>
