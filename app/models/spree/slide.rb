@@ -7,7 +7,7 @@ class Spree::Slide < ActiveRecord::Base
   
   #, :storage => :s3, :s3_credentials => File.join(Rails.root, 'config', 's3.yml')
   scope :published, where(:published => true)
-  attr_accessible :name, :body, :link_url, :published, :image, :position
+  # attr_accessible :name, :body, :link_url, :published, :image, :position
   
   def initialize(attrs = nil)
     attrs ||= {:published => true}
