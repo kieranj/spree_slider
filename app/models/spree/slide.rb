@@ -9,6 +9,8 @@ class Spree::Slide < ActiveRecord::Base
   scope :published, where(:published => true)
   attr_accessible :name, :body, :link_url, :published, :image, :position
   
+  default_scope order(:position)
+  
   def initialize(attrs = nil)
     attrs ||= {:published => true}
     super
